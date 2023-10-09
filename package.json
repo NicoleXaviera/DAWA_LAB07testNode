@@ -1,0 +1,22 @@
+{
+    "name": "daws_lab07", 
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest --verbose" 
+    },
+    "keywords": [],
+    "author": {
+      "name": "Nicole Arguedas", 
+      "email": "nicole.arguedas@tecsup.edu.pe"
+    },
+    "license": "ISC",
+    "devDependencies": {
+      "jest": "^29.5.0" 
+    },
+    "jest": {
+      "testEnvironment": "node"
+    }
+  }
+  
