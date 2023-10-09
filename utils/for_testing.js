@@ -1,5 +1,5 @@
 const palindrome = (string) => { // Función para verificar si una cadena es un palíndromo
-    if (typeof string === 'undefined') return;   // Comprobamos si la cadena es indefinida y, en ese caso, retornamos undefined
+    if (typeof string != 'string') return;   // Comprobamos si la cadena es indefinida y, en ese caso, retornamos undefined
     return string
       .split("")
       .reverse()

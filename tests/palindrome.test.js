@@ -4,8 +4,8 @@ const { palindrome } = require('../utils/for_testing');
 
 //cuando tenemos metodos que recibe string tenemos que testear y considerar si viene nada y vacio
 test('palindrome of avion', () => {
-  const result = palindrome('avion'); 
-  expect(result).toBe('noiva'); //tobe recibe el resultado esperado de lo que recibe el palindrome
+  const result = palindrome(1234); 
+  expect(result).toBe(); //tobe recibe el resultado esperado de lo que recibe el palindrome
 });
 
 test('palindrome of empty string', () => {
